@@ -9,111 +9,156 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/Assets\/Book lesson.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/Assets\/BluePlates.jpg" : {
+      "ft" : 16384,
+      "iS" : 68895,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/Book lesson.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/Header image.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/Header image.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/Image 1.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/Image 1.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/image 2.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/image 2.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/image 3.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/image 3.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/Image 5.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/Image 5.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/image 9.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/image 9.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/image 10.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/image 10.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/image 11.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/image 11.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/image 12.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/image 12.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/Logo.pdf" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/Logo.pdf",
-      "oF" : 0
-    },
-    "\/Assets\/Search Logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Search Logo.svg",
+      "oAP" : "\/Assets\/BluePlates.jpg",
       "oF" : 0,
+      "oIPL" : 0,
       "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/Assets\/Shop homegoods.pdf" : {
+    "\/Assets\/BrownMugs.jpg" : {
+      "ft" : 16384,
+      "iS" : 76140,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/BrownMugs.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 65832,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 121553,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Hero2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 59898,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More1.jpg" : {
+      "ft" : 16384,
+      "iS" : 77449,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More2.jpg" : {
+      "ft" : 16384,
+      "iS" : 73621,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More3.jpg" : {
+      "ft" : 16384,
+      "iS" : 61500,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More5.jpg" : {
+      "ft" : 16384,
+      "iS" : 79090,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Round1.jpg" : {
+      "ft" : 16384,
+      "iS" : 59173,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Round1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Round2.jpf" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/Shop homegoods.pdf",
+      "oAP" : "\/Assets\/Round2.jpf",
       "oF" : 0
+    },
+    "\/Assets\/WhiteVase.jpg" : {
+      "ft" : 16384,
+      "iS" : 64824,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/WhiteVase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -126,6 +171,42 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/Global\/Logo.jpg" : {
+      "ft" : 16384,
+      "iS" : 59898,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Global\/Logo.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Global\/Search Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Global\/Search Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Heros\/Hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 65832,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Heros\/Hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -145,6 +226,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/dev\/content\/Hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Hero.html",
+      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -166,7 +255,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
