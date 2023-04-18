@@ -22,38 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assets\/BrownMugs.jpg" : {
-      "ft" : 16384,
-      "iS" : 76140,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/BrownMugs.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/Assets\/Hero.jpg" : {
       "ft" : 16384,
       "iS" : 65832,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Hero.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/Hero2.jpg" : {
-      "ft" : 16384,
-      "iS" : 121553,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/Hero2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -142,19 +116,6 @@
       "oAP" : "\/Assets\/Round2.jpf",
       "oF" : 0
     },
-    "\/Assets\/WhiteVase.jpg" : {
-      "ft" : 16384,
-      "iS" : 64824,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/WhiteVase.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -166,6 +127,32 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/about\/BrownMugs.jpg" : {
+      "ft" : 16384,
+      "iS" : 76140,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/BrownMugs.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/Hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 121553,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/Hero2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/about\/Round1.JPG" : {
       "ft" : 16384,
@@ -186,6 +173,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about\/Round2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/WhiteVase.jpg" : {
+      "ft" : 16384,
+      "iS" : 64824,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/WhiteVase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -262,6 +262,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/Hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/content\/info.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
