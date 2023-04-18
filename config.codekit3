@@ -9,19 +9,6 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/Assets\/BluePlates.jpg" : {
-      "ft" : 16384,
-      "iS" : 68895,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/BluePlates.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/Assets\/Hero.jpg" : {
       "ft" : 16384,
       "iS" : 65832,
@@ -41,58 +28,6 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Logo.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/More1.jpg" : {
-      "ft" : 16384,
-      "iS" : 77449,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/More1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/More2.jpg" : {
-      "ft" : 16384,
-      "iS" : 73621,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/More2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/More3.jpg" : {
-      "ft" : 16384,
-      "iS" : 61500,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/More3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/Assets\/More5.jpg" : {
-      "ft" : 16384,
-      "iS" : 79090,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/More5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -229,6 +164,71 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Info\/BluePlates.jpg" : {
+      "ft" : 16384,
+      "iS" : 68895,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Info\/BluePlates.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Info\/More1.jpg" : {
+      "ft" : 16384,
+      "iS" : 77449,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Info\/More1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Info\/More2.jpg" : {
+      "ft" : 16384,
+      "iS" : 73621,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Info\/More2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Info\/More3.jpg" : {
+      "ft" : 16384,
+      "iS" : 61500,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Info\/More3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Info\/More5.jpg" : {
+      "ft" : 16384,
+      "iS" : 79090,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Info\/More5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -264,12 +264,12 @@
       "oAP" : "\/dev\/content\/Hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/info.kit" : {
+    "\/dev\/content\/Info.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/info.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/Info.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
