@@ -9,12 +9,61 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
+    "\/Assets\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/BluePlates.jpg" : {
+      "ft" : 16384,
+      "iS" : 68895,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/BluePlates.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/BrownMugs.jpg" : {
+      "ft" : 16384,
+      "iS" : 76140,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/BrownMugs.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Assets\/Hero.jpg" : {
       "ft" : 16384,
       "iS" : 65832,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Hero2.jpg" : {
+      "ft" : 16384,
+      "iS" : 121553,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Hero2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,6 +84,68 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Assets\/More1.jpg" : {
+      "ft" : 16384,
+      "iS" : 77449,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More2.jpg" : {
+      "ft" : 16384,
+      "iS" : 73621,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More3.jpg" : {
+      "ft" : 16384,
+      "iS" : 61500,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/More5.jpg" : {
+      "ft" : 16384,
+      "iS" : 79090,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/More5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/phone.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/phone.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/Round1.jpf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -50,6 +161,39 @@
       "oA" : 0,
       "oAP" : "\/Assets\/Round2.jpf",
       "oF" : 0
+    },
+    "\/Assets\/Search Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Search Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Socials.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Socials.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/WhiteVase.jpg" : {
+      "ft" : 16384,
+      "iS" : 64824,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/WhiteVase.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
@@ -128,6 +272,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Global\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Global\/arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/Global\/Logo.jpg" : {
       "ft" : 16384,
       "iS" : 59898,
@@ -141,11 +295,31 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Global\/phone.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Global\/phone.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/Global\/Search Logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/Global\/Search Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Global\/Socials.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Global\/Socials.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -276,7 +450,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
