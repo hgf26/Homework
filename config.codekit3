@@ -207,12 +207,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/about\/BrownMugs.jpg" : {
+    "\/deploy\/img\/Gallery\/BrownMugs.jpg" : {
       "ft" : 16384,
       "iS" : 76140,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/about\/BrownMugs.jpg",
+      "oAP" : "\/deploy\/img\/Gallery\/BrownMugs.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -220,12 +220,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/about\/Hero2.jpg" : {
+    "\/deploy\/img\/Gallery\/Hero2.jpg" : {
       "ft" : 16384,
       "iS" : 121553,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/about\/Hero2.jpg",
+      "oAP" : "\/deploy\/img\/Gallery\/Hero2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -233,12 +233,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/about\/Round1.JPG" : {
+    "\/deploy\/img\/Gallery\/Round1.JPG" : {
       "ft" : 16384,
       "iS" : 57904,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/about\/Round1.jpg",
+      "oAP" : "\/deploy\/img\/Gallery\/Round1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -246,12 +246,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/about\/Round2.JPG" : {
+    "\/deploy\/img\/Gallery\/Round2.JPG" : {
       "ft" : 16384,
       "iS" : 67541,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/about\/Round2.jpg",
+      "oAP" : "\/deploy\/img\/Gallery\/Round2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -259,12 +259,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/about\/WhiteVase.jpg" : {
+    "\/deploy\/img\/Gallery\/WhiteVase.jpg" : {
       "ft" : 16384,
       "iS" : 64824,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/about\/WhiteVase.jpg",
+      "oAP" : "\/deploy\/img\/Gallery\/WhiteVase.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -422,12 +422,12 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/About.kit" : {
+    "\/dev\/content\/Gallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/About.html",
+      "oAP" : "\/dev\/content\/Gallery.html",
       "oF" : 0
     },
     "\/dev\/content\/Hero.kit" : {
@@ -642,6 +642,51 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_Gallery.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_Gallery.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_Info.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_Info.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
