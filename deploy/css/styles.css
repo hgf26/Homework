@@ -362,7 +362,12 @@ textarea {
     Header
 ============= */
 header {
-  background-color: azure;
+  display: grid;
+  grid-template-columns: 18px auto 219px;
+  grid-template-areas: ". header .";
+}
+header > div {
+  grid-area: header;
 }
 
 /* =============
