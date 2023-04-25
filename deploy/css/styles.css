@@ -373,18 +373,18 @@ header > div {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Hero
 ============= */
-#Hero {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". Hero .";
-}
-#Hero > div {
-  grid-area: Hero;
-}
-
 /* =============
     Contacts
 ============= */
@@ -403,3 +403,11 @@ header > div {
 /* =============
     Info
 ============= */
+#Info {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". Info .";
+}
+#Info > div {
+  grid-area: Info;
+}
