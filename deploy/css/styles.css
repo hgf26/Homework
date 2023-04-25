@@ -327,6 +327,10 @@ template {
 /* =============
     Base
 ============= */
+.large-image {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
@@ -357,6 +361,10 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: azure;
+}
+
 /* =============
     Footer
 ============= */
