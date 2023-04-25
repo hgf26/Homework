@@ -376,6 +376,27 @@ header > div {
 /* =============
     Hero
 ============= */
+#Hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". Hero .";
+}
+#Hero > div {
+  grid-area: Hero;
+}
+
+/* =============
+    Contacts
+============= */
+#Contacts {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". Contacts .";
+}
+#Contacts > div {
+  grid-area: Contacts;
+}
+
 /* =============
     Gallery
 ============= */

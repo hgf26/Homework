@@ -1,15 +1,12 @@
 /* =============
-    Hero
+    Contacts
 ============= */
-#Hero{
+#Contacts{
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". Hero .";
+    grid-template-areas: ". Contacts .";
 
     >div{
-grid-area: Hero;
+grid-area: Contacts;
     }
 }
-
-
-
