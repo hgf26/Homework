@@ -340,6 +340,14 @@ template {
   width: 100%;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -370,22 +378,48 @@ textarea {
 /* =============
     Header
 ============= */
+header #logo-nav {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". logo-nav .";
+}
+header #logo-nav > div {
+  background: darkgrey;
+  grid-area: logo-nav;
+}
+header #search {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". search .";
+}
+header #search > div {
+  background: lightblue;
+  grid-area: search;
+}
 /* =============
     Footer
 ============= */
 /* =============
     Hero
 ============= */
-/* =============
-    Contacts
-============= */
-#Contacts {
+#Hero aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". Contacts .";
+  grid-template-areas: ". hero-aside .";
 }
-#Contacts > div {
-  grid-area: Contacts;
+#Hero aside > div {
+  grid-area: hero-aside;
+}
+
+#hero-sub .hero-sub-content {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hero-sub .";
+}
+#hero-sub .hero-sub-content > div {
+  grid-area: hero-sub;
+  display: grid;
+  grid-template-columns: 50% auto;
 }
 
 /* =============
@@ -394,11 +428,3 @@ textarea {
 /* =============
     Info
 ============= */
-#Info {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". Info .";
-}
-#Info > div {
-  grid-area: Info;
-}

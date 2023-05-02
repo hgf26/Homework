@@ -1,12 +1,22 @@
 /* =============
     Info
 ============= */
-#Info{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". Info .";
 
-    >div{
-grid-area: Info;
+#info{
+
+    ul{
+       li{
+         img{
+            width: 100%;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". info-content .";
+            <div{
+                grid-area: info-content;
+           } 
+        }
+       } 
     }
 }

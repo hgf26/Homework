@@ -2,5 +2,39 @@
     Header
 ============= */
 header{
-    
+    #logo-nav{
+      display: grid;
+      grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". logo-nav .";
+      >div{
+        background: darkgrey;
+        grid-area: logo-nav;
+        Img{
+            
+        } 
+      }
+
+    }
+
+    #search{
+      display: grid;
+      grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". search .";
+      >div{
+        background:lightblue;
+        grid-area: search;
+        form{
+          input{
+
+          }  
+
+          button{
+            img{
+                
+            }
+          }
+        }
+      }
+      
+    }
 }
