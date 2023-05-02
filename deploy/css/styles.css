@@ -399,6 +399,15 @@ header #search > div {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Hero
 ============= */
@@ -428,3 +437,14 @@ header #search > div {
 /* =============
     Info
 ============= */
+#info ul li img {
+  width: 100%;
+}
+#info ul li section {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". info-content .";
+}
+#info ul li section > div {
+  grid-area: info-content;
+}
