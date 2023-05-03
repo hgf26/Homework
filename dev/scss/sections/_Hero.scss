@@ -2,24 +2,71 @@
     Hero
 ============= */
 #hero{
-   aside{
-        display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero-aside .";
-        >div{
-            grid-area: hero-aside;
+    section{
+        @include md{
+            display: grid;
+            grid-template-columns: 40% auto;
         }
-   } 
+        
+        @include lg{
+            grid-template-columns: 50% auto;
+        }
+        aside{
+            display: grid;
+            grid-template-columns: 16px auto 16px;
+            grid-template-areas: ". hero-aside .";
+            >div{
+                grid-area: hero-aside;
+            }
+       } 
+
+       #hero-left{
+        background: peachpuff;
+       }
+
+       #hero-right{
+        background: pink;
+       }
+    }
+  
 }
 
+#hero-sub{
 
-.hero-sub{
+    @include md{
         display: grid;
-        grid-template-columns: 16px auto 16px;
-        grid-template-areas: ". hero-sub .";
-        >div{
+           grid-template-columns:16px auto 16px;
+           grid-template-areas: ". hero-sub .";
+       }
+
+       @include xxl{
+            grid-template-columns: auto 1200px auto;
+        }
+
+    >div{
+        @include md{
             grid-area: hero-sub;
+            
             display: grid;
-        grid-template-columns: 50% auto;
-    }
+            grid-template-columns: 50% auto;
+        }
+       
+            .hero-sub{
+            >div{
+                    grid-area: hero-sub;
+                    display: grid;
+                grid-template-columns: 50% auto;
+                }
+            
+            #hero-sub-left{
+        background-color: lightblue;
+            }   
+            
+            #hero-sub-right{
+    background-color: teal;
+            }
+             } 
+        }
+    
+   
 }

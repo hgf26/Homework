@@ -23,3 +23,11 @@ margin: 0;
 list-style: none;
     }
 }
+
+.show-extra-large{
+    display: none;
+
+    @include xxl{
+        display:block;
+    }
+}

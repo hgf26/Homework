@@ -348,6 +348,15 @@ ul li {
   list-style: none;
 }
 
+.show-extra-large {
+  display: none;
+}
+@media (min-width: 1440px) {
+  .show-extra-large {
+    display: block;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -411,29 +420,112 @@ footer > div {
 /* =============
     Hero
 ============= */
-#hero aside {
+@media (min-width: 768px) {
+  #hero section {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #hero section {
+    grid-template-columns: 50% auto;
+  }
+}
+#hero section aside {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". hero-aside .";
 }
-#hero aside > div {
+#hero section aside > div {
   grid-area: hero-aside;
 }
-
-.hero-sub {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero-sub .";
+#hero section #hero-left {
+  background: peachpuff;
 }
-.hero-sub > div {
+#hero section #hero-right {
+  background: pink;
+}
+
+@media (min-width: 768px) {
+  #hero-sub {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". hero-sub .";
+  }
+}
+@media (min-width: 1440px) {
+  #hero-sub {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+@media (min-width: 768px) {
+  #hero-sub > div {
+    grid-area: hero-sub;
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#hero-sub > div .hero-sub > div {
   grid-area: hero-sub;
   display: grid;
   grid-template-columns: 50% auto;
+}
+#hero-sub > div .hero-sub #hero-sub-left {
+  background-color: lightblue;
+}
+#hero-sub > div .hero-sub #hero-sub-right {
+  background-color: teal;
 }
 
 /* =============
     Gallery
 ============= */
+@media (min-width: 1024px) {
+  #gallery {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". gallery .";
+  }
+}
+@media (min-width: 1440px) {
+  #gallery {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#gallery ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  #gallery ul {
+    grid-template-columns: 50% auto;
+  }
+}
+@media (min-width: 1024px) {
+  #gallery ul {
+    grid-area: gallery;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul {
+    grid-template-areas: "g1 g2" "g1 g3";
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g1 {
+    grid-area: g1;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g2 {
+    grid-area: g2;
+  }
+}
+@media (min-width: 1440px) {
+  #gallery ul #g3 {
+    grid-area: g3;
+  }
+}
+
 /* =============
     Info
 ============= */
