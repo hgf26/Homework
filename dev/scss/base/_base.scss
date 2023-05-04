@@ -1,6 +1,11 @@
 /* =============
     Base
 ============= */
+body{
+    background-color: #C8D7DD;
+}
+
+
 .header-footer-grid{
     display: grid;
     grid-template-columns: 18px auto 219px;
