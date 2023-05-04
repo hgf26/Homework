@@ -3,20 +3,83 @@
 ============= */
 
 #info{
-
-    ul{
-       li{
-         img{
-            width: 100%;
-        }
-        section{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". info-content .";
-            >div{
-                grid-area: info-content;
-           } 
-        }
-       } 
+    @include md{
+        display: grid;
+        grid-template-columns: 16px auto 16px;
+        grid-template-areas: ". info .";
     }
+
+    @include xxl{
+        grid-template-columns: auto 1200px auto; 
+    }
+
+    >div{
+        @include md {
+            grid-area:info ;
+        }
+        ul{
+            @include md{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-areas: 
+                "i1 i1 i2 i2 " 
+                "i3 i3 i4 i4"
+                ".. i5 i5 ..";
+                gap: 16px;
+    
+            }
+
+            @include lg{
+                grid-template-columns: repeat(6, 1fr);
+                grid-template-areas: 
+                "i1 i1 i2 i2 i3 i3" 
+                ".. i4 i4 i5 i5 ..";
+            }
+
+           li{
+             img{
+                width: 100%;
+            }
+            section{
+                display: grid;
+                grid-template-columns: 16px auto 16px;
+                grid-template-areas: ". info-content .";
+                >div{
+                    grid-area: info-content;
+               } 
+            }
+           } 
+    
+           #i1{
+            @include md{
+                grid-area: i1;
+            }
+           }
+    
+           #i2{
+            @include md{
+                grid-area: i2;
+            }
+           }
+    
+           #i3{
+            @include md{
+                grid-area: i3;
+            }
+           }
+    
+           #i4{
+            @include md{
+                grid-area: i4;
+            }
+           }
+    
+           #i5{
+            @include md{
+                grid-area: i5;
+            }
+           }
+        }
+    }
+  
 }

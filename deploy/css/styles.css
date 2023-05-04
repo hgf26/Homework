@@ -412,9 +412,44 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
+  background-color: #2A3036;
+  color: white;
+}
+@media (min-width: 1440px) {
+  footer {
+    grid-template-columns: auto 1200px auto;
+  }
 }
 footer > div {
   grid-area: footer;
+}
+@media (min-width: 768px) {
+  footer > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas: "f1 f2" "f1 f3";
+  }
+}
+@media (min-width: 1024px) {
+  footer > div {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "f1 f2 f3";
+  }
+}
+@media (min-width: 768px) {
+  footer > div #f1 {
+    grid-area: f1;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #f2 {
+    grid-area: f2;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #f3 {
+    grid-area: f3;
+  }
 }
 
 /* =============
@@ -529,14 +564,70 @@ footer > div {
 /* =============
     Info
 ============= */
-#info ul li img {
+@media (min-width: 768px) {
+  #info {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". info .";
+  }
+}
+@media (min-width: 1440px) {
+  #info {
+    grid-template-columns: auto 1200px auto;
+  }
+}
+@media (min-width: 768px) {
+  #info > div {
+    grid-area: info;
+  }
+}
+@media (min-width: 768px) {
+  #info > div ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "i1 i1 i2 i2 " "i3 i3 i4 i4" ".. i5 i5 ..";
+    gap: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  #info > div ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "i1 i1 i2 i2 i3 i3" ".. i4 i4 i5 i5 ..";
+  }
+}
+#info > div ul li img {
   width: 100%;
 }
-#info ul li section {
+#info > div ul li section {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". info-content .";
 }
-#info ul li section > div {
+#info > div ul li section > div {
   grid-area: info-content;
+}
+@media (min-width: 768px) {
+  #info > div ul #i1 {
+    grid-area: i1;
+  }
+}
+@media (min-width: 768px) {
+  #info > div ul #i2 {
+    grid-area: i2;
+  }
+}
+@media (min-width: 768px) {
+  #info > div ul #i3 {
+    grid-area: i3;
+  }
+}
+@media (min-width: 768px) {
+  #info > div ul #i4 {
+    grid-area: i4;
+  }
+}
+@media (min-width: 768px) {
+  #info > div ul #i5 {
+    grid-area: i5;
+  }
 }
