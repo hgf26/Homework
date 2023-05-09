@@ -7,6 +7,14 @@ body{
 
 .content-spacing{
     margin-top: 24px;
+
+    @include md{
+        margin-top: 40px; 
+    }
+
+    @include xl{
+        margin-top: 50px; 
+    }
 }
 
 .header-footer-grid{
