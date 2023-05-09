@@ -339,6 +339,10 @@ body {
   background-color: #C8D7DD;
 }
 
+.content-spacing {
+  margin-top: 16px;
+}
+
 .header-footer-grid {
   display: grid;
   grid-template-columns: 18px auto 219px;
@@ -372,6 +376,11 @@ ul li {
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Buttons
 ============= */
@@ -403,18 +412,23 @@ header #logo-nav {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". logo-nav .";
+  background: var(--grey);
 }
 header #logo-nav > div {
-  background: var(--grey);
   grid-area: logo-nav;
+}
+header #logo-nav > div Img {
+  width: 90px;
+  height: 45px;
+  padding: 16px 220px 26px 18px;
 }
 header #search {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". search .";
+  background: lightblue;
 }
 header #search > div {
-  background: lightblue;
   grid-area: search;
 }
 /* =============
@@ -426,6 +440,7 @@ footer {
   grid-template-areas: ". footer .";
   background-color: #2A3036;
   color: white;
+  margin-top: 24px;
 }
 @media (min-width: 1440px) {
   footer {
@@ -614,6 +629,7 @@ footer > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". info-content .";
+  background: white;
 }
 #info > div ul li section > div {
   grid-area: info-content;

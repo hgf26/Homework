@@ -6,12 +6,16 @@ header{
       display: grid;
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". logo-nav .";
+      background: var(--grey);
+
       >div{
-        background: var(--grey);
+       
         
         grid-area: logo-nav;
         Img{
-            
+          width: 90px;
+          height: 45px;
+          padding: 16px 220px 26px 18px;
         } 
       }
 
@@ -21,8 +25,10 @@ header{
       display: grid;
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". search .";
+      background:lightblue;
+      
       >div{
-        background:lightblue;
+       
         grid-area: search;
         form{
           input{

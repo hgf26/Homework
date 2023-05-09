@@ -233,6 +233,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Gallery\/round1.avif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/round1.avif",
+      "oF" : 0
+    },
     "\/deploy\/img\/Gallery\/Round1.JPG" : {
       "ft" : 16384,
       "iS" : 57904,
@@ -245,6 +253,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/Gallery\/Round2.jpf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Gallery\/Round2.jpf",
+      "oF" : 0
     },
     "\/deploy\/img\/Gallery\/Round2.JPG" : {
       "ft" : 16384,

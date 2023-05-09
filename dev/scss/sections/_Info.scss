@@ -15,7 +15,7 @@
 
     >div{
         @include md {
-            grid-area:info ;
+            grid-area: info ;
         }
         ul{
             @include md{
@@ -44,8 +44,11 @@
                 display: grid;
                 grid-template-columns: 16px auto 16px;
                 grid-template-areas: ". info-content .";
+                background: white;
+                
                 >div{
                     grid-area: info-content;
+                  
                } 
             }
            } 

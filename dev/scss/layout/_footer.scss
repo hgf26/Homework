@@ -8,6 +8,7 @@ footer{
 
     background-color: #2A3036;
     color: white;
+    margin-top: 24px;
 
     @include xxl{
         grid-template-columns: auto 1200px auto;  
@@ -16,6 +17,7 @@ footer{
 
     >div{
         grid-area: footer;
+      
 
         @include md{
             display: grid;
@@ -34,6 +36,7 @@ footer{
         #f1{
             @include md{
                 grid-area: f1;
+        
             }
         }
 
