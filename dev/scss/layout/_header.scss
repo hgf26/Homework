@@ -7,15 +7,16 @@ header{
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". logo-nav .";
       background: var(--grey);
+      padding: 16px 0 24px;
 
       >div{
        
         
         grid-area: logo-nav;
         Img{
-          width: 90px;
+          width: 100px;
           height: 45px;
-          padding: 16px 220px 26px 18px;
+      
         } 
       }
 
@@ -25,17 +26,38 @@ header{
       display: grid;
       grid-template-columns: 16px auto 16px;
       grid-template-areas: ". search .";
-      background:lightblue;
+      background:var(--background);
+      padding: 16px 0;
+
+      @include md{
+        padding: 24px;
+      }
       
+      @include xxl{
+        grid-template-columns: auto 1200px auto;
+        padding: 30px 0;
+      }
       >div{
        
         grid-area: search;
         form{
+          display: flex;
           input{
+            width: 100%;
+            background-color: var(--background);
+            border: none;
+            border-bottom: 1px solid var(--grey);
+            border-radius: 0;
 
           }  
 
           button{
+            background-color: var(--teal1);
+            border: 0;
+            border-radius: 5px;
+            padding: 10px 15px;
+            margin-left: 8px;
+
             img{
                 
             }
