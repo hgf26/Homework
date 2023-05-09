@@ -484,9 +484,14 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer .";
-  background-color: #2A3036;
-  color: white;
-  margin-top: 24px;
+  background-color: var(--grey);
+  color: var(--white);
+  padding: 16px 0 24px;
+}
+@media (min-width: 768px) {
+  footer {
+    padding: 24px 0 32px;
+  }
 }
 @media (min-width: 1440px) {
   footer {
@@ -509,15 +514,48 @@ footer > div {
     grid-template-areas: "f1 f2 f3";
   }
 }
+footer > div #f1 {
+  margin-bottom: 16px;
+}
 @media (min-width: 768px) {
   footer > div #f1 {
     grid-area: f1;
   }
 }
+footer > div #f1 .f1-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+footer > div #f1 .f1-content i {
+  margin-right: 8px;
+}
 @media (min-width: 768px) {
   footer > div #f2 {
     grid-area: f2;
   }
+}
+footer > div #f2 h1 {
+  margin-bottom: 16px;
+}
+footer > div #f2 form {
+  display: flex;
+  flex-direction: column;
+}
+footer > div #f2 form input {
+  width: 100%;
+  border: none;
+  background-color: var(--light-grey);
+  box-sizing: border-box;
+  padding: 16px 8px;
+  border-radius: none;
+}
+footer > div #f2 form input div {
+  text-align: right;
+}
+footer > div #f2 form input div button {
+  border: none;
+  color: white;
 }
 @media (min-width: 768px) {
   footer > div #f3 {

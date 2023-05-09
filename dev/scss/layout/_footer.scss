@@ -6,9 +6,15 @@ footer{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer .";
 
-    background-color: #2A3036;
-    color: white;
-    margin-top: 24px;
+    background-color: var(--grey);
+    color: var(--white);
+    
+    padding: 16px 0 24px;
+
+    @include md{
+        padding: 24px 0 32px;
+    }
+    
 
     @include xxl{
         grid-template-columns: auto 1200px auto;  
@@ -34,15 +40,54 @@ footer{
        } 
 
         #f1{
+            margin-bottom: 16px;
             @include md{
                 grid-area: f1;
+
         
+            }
+
+            .f1-content{
+                display: flex;
+                align-items: center;
+                margin-bottom: 16px;
+
+                i{
+                    margin-right: 8px;
+                }
             }
         }
 
         #f2{
             @include md{
                 grid-area: f2;
+            }
+
+            h1{
+                margin-bottom: 16px;
+            }
+
+            form{
+                display: flex;
+                flex-direction: column;
+                input{
+                    width: 100%;
+                    border: none;
+                    background-color: var(--light-grey);
+                    box-sizing: border-box;
+                    padding: 16px 8px;
+                    border-radius: none;
+
+                    div{
+                        text-align: right;
+                        button{
+                            border: none;
+                            color: white;
+                        }   
+                    }
+
+
+                }
             }
         }
 
