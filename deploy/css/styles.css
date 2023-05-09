@@ -13,6 +13,14 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --background: #C8D7DD;
+  --teal1: #A5D1E3;
+  --teal2: #68A6BF;
+  --teal3: #3C7890;
+  --teal4: #469BBD;
+  --grey: #303336;
+  --light-grey: #ADB5BD;
+  --light-tan: #E0DFD5;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -327,6 +335,10 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: #C8D7DD;
+}
+
 .header-footer-grid {
   display: grid;
   grid-template-columns: 18px auto 219px;
@@ -393,7 +405,7 @@ header #logo-nav {
   grid-template-areas: ". logo-nav .";
 }
 header #logo-nav > div {
-  background: darkgrey;
+  background: var(--grey);
   grid-area: logo-nav;
 }
 header #search {
@@ -475,10 +487,10 @@ footer > div {
   grid-area: hero-aside;
 }
 #hero section #hero-left {
-  background: peachpuff;
+  background: var(--teal4);
 }
 #hero section #hero-right {
-  background: pink;
+  background: var(--teal3);
 }
 
 @media (min-width: 768px) {
@@ -506,10 +518,10 @@ footer > div {
   grid-template-columns: 50% auto;
 }
 #hero-sub > div .hero-sub #hero-sub-left {
-  background-color: lightblue;
+  background-color: var(--light-tan);
 }
 #hero-sub > div .hero-sub #hero-sub-right {
-  background-color: teal;
+  background-color: var(--light-tan);
 }
 
 /* =============

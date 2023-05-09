@@ -21,12 +21,12 @@
        } 
 
        #hero-left{
-        background: var(--teal3);
+        background: var(--teal4);
 
        }
 
        #hero-right{
-        background: var(--teal4);
+        background: var(--teal3);
         
        }
     }
@@ -61,11 +61,13 @@
                 }
             
             #hero-sub-left{
-        background-color: lightblue;
+        background-color: var(--light-tan);
+
             }   
             
             #hero-sub-right{
-    background-color: teal;
+    background-color: var(--light-tan);
+    
             }
              } 
         }
