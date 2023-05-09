@@ -17,7 +17,16 @@
         @include md {
             grid-area: info ;
         }
+
+        h1{
+           @include md{
+            margin-bottom: 16px;
+           }
+        }
         ul{
+            display: grid;
+            
+
             @include md{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
@@ -37,6 +46,8 @@
             }
 
            li{
+            background-color: var(--white);
+            box-shadow: 0px 1px 1px rgba (42, 48, 54, 0.3);
              img{
                 width: 100%;
             }
@@ -45,6 +56,8 @@
                 grid-template-columns: 16px auto 16px;
                 grid-template-areas: ". info-content .";
                 background: white;
+                box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+                padding: 24px 0;
                 
                 >div{
                     grid-area: info-content;

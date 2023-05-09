@@ -394,6 +394,13 @@ h1, h2, h3, h4, h5, p {
 /* =============
     Buttons
 ============= */
+.blue-button {
+  background-color: var(--teal1);
+  padding: 12px 16px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
 /* =============
     Forms
 ============= */
@@ -603,12 +610,6 @@ footer > div {
   display: flex;
   align-items: center;
 }
-#hero-sub > div .hero-sub-card a {
-  background-color: var(--teal1);
-  padding: 12px 16px;
-  display: inline-block;
-  margin-top: 8px;
-}
 #hero-sub > div .hero-sub-card aside {
   margin-left: auto;
 }
@@ -683,6 +684,14 @@ footer > div {
   }
 }
 @media (min-width: 768px) {
+  #info > div h1 {
+    margin-bottom: 16px;
+  }
+}
+#info > div ul {
+  display: grid;
+}
+@media (min-width: 768px) {
   #info > div ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -696,6 +705,10 @@ footer > div {
     grid-template-areas: "i1 i1 i2 i2 i3 i3" ".. i4 i4 i5 i5 ..";
   }
 }
+#info > div ul li {
+  background-color: var(--white);
+  box-shadow: 0px 1px 1px rgba 42, 48, 54, 0.3;
+}
 #info > div ul li img {
   width: 100%;
 }
@@ -704,6 +717,8 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". info-content .";
   background: white;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  padding: 24px 0;
 }
 #info > div ul li section > div {
   grid-area: info-content;
