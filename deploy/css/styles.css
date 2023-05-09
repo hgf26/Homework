@@ -340,7 +340,7 @@ body {
 }
 
 .content-spacing {
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .header-footer-grid {
@@ -512,29 +512,57 @@ footer > div {
     Hero
 ============= */
 @media (min-width: 768px) {
-  #hero section {
+  #hero #hero-container {
     display: grid;
     grid-template-columns: 40% auto;
   }
 }
 @media (min-width: 1024px) {
-  #hero section {
+  #hero #hero-container {
     grid-template-columns: 50% auto;
   }
 }
-#hero section aside {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". hero-aside .";
+#hero #hero-container aside {
+  padding: 16px 0;
 }
-#hero section aside > div {
+#hero #hero-container aside .hero-content-containers {
   grid-area: hero-aside;
+  display: flex;
+  padding: 16px;
 }
-#hero section #hero-left {
+#hero #hero-container aside .hero-content-containers h1 {
+  font-size: 1.25rem;
+}
+#hero #hero-container aside .hero-content-containers .hero-links {
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  #hero #hero-container aside .hero-content-containers .hero-links a {
+    display: flex important;
+  }
+}
+#hero #hero-container aside .hero-content-containers .hero-links a i {
+  margin-left: 8px;
+}
+#hero #hero-container #hero-left {
   background: var(--teal4);
 }
-#hero section #hero-right {
+@media (min-width: 1024px) {
+  #hero #hero-container #hero-left {
+    padding-left: 10vw;
+  }
+}
+#hero #hero-container #hero-right {
   background: var(--teal3);
+}
+@media (min-width: 1024px) {
+  #hero #hero-container #hero-right {
+    padding-right: 10vw;
+  }
 }
 
 @media (min-width: 768px) {
@@ -549,10 +577,12 @@ footer > div {
     grid-template-columns: auto 1200px auto;
   }
 }
+#hero-sub > div {
+  display: grid;
+}
 @media (min-width: 768px) {
   #hero-sub > div {
     grid-area: hero-sub;
-    display: grid;
     grid-template-columns: 50% auto;
   }
 }
@@ -563,9 +593,13 @@ footer > div {
 }
 #hero-sub > div .hero-sub #hero-sub-left {
   background-color: var(--light-tan);
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  padding: 16px;
 }
 #hero-sub > div .hero-sub #hero-sub-right {
   background-color: var(--light-tan);
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+  padding: 16px;
 }
 
 /* =============

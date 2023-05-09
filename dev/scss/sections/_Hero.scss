@@ -2,7 +2,7 @@
     Hero
 ============= */
 #hero{
-    section{
+    #hero-container{
         @include md{
             display: grid;
             grid-template-columns: 40% auto;
@@ -12,23 +12,56 @@
             grid-template-columns: 50% auto;
         }
         aside{
-            display: grid;
-            grid-template-columns: 16px auto 16px;
-            grid-template-areas: ". hero-aside .";
-            >div{
+            // display: grid;
+            // grid-template-columns: 16px auto 16px;
+            // grid-template-areas: ". hero-aside .";
+            padding: 16px 0;
+
+           .hero-content-containers{
                 grid-area: hero-aside;
+
+                display: flex;
+                padding: 16px;
+
+                h1{
+                font-size: rem-calc(20);
+                }
+
+                .hero-links{
+                    margin-left: auto;
+                    align-items: center;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+
+                    a{
+                        @include lg{
+                            display: flex important;
+                        }
+                        i{
+                            margin-left: 8px;
+                        }
+                    }
+                }
             }
        } 
 
        #hero-left{
         background: var(--teal4);
+
+        @include lg{
+            padding-left: 10vw;
+        }
         
 
        }
 
        #hero-right{
         background: var(--teal3);
-        
+
+        @include lg{
+            padding-right: 10vw;
+        }
        }
     }
   
@@ -47,14 +80,17 @@
         }
 
     >div{
+        display: grid;
+    
         @include md{
             grid-area: hero-sub;
             
-            display: grid;
+           
             grid-template-columns: 50% auto;
         }
        
             .hero-sub{
+
             >div{
                     grid-area: hero-sub;
                     display: grid;
@@ -63,12 +99,14 @@
             
             #hero-sub-left{
         background-color: var(--light-tan);
-
+        box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+        padding: 16px;
             }   
             
             #hero-sub-right{
     background-color: var(--light-tan);
-    
+    box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+    padding: 16px;
             }
              } 
         }
