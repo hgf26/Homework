@@ -2,6 +2,24 @@
     Hero
 ============= */
 #hero{
+
+    #hero-img{
+        background-image: url("../img/Heros/Hero.jpg");
+        background-size: cover;
+        height: 50vh;
+        background-position:center;
+
+        @include lg{
+            height: 80vh;
+            
+        }
+
+        @include xl{
+            height: 90vh;
+           
+        }
+    }
+
     #hero-container{
         @include md{
             display: grid;

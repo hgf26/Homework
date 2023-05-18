@@ -386,6 +386,10 @@ ul li {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1, h2, h3, h4, h5, p {
   margin: 0;
   padding: 0;
@@ -470,12 +474,28 @@ header #search > div form input {
   border-bottom: 1px solid var(--grey);
   border-radius: 0;
 }
+@media (min-width: 768px) {
+  header #search > div form input {
+    font-size: 1.875rem;
+    font-weight: 300;
+  }
+}
+@media (min-width: 1200px) {
+  header #search > div form input {
+    font-size: 2.1875rem;
+  }
+}
 header #search > div form button {
   background-color: var(--teal1);
   border: 0;
   border-radius: 5px;
   padding: 10px 15px;
   margin-left: 8px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+header #search > div form button:hover {
+  background-color: var(--teal4);
 }
 /* =============
     Footer
@@ -566,6 +586,22 @@ footer > div #f2 form input div button {
 /* =============
     Hero
 ============= */
+#hero #hero-img {
+  background-image: url("../img/Heros/Hero.jpg");
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+}
+@media (min-width: 1024px) {
+  #hero #hero-img {
+    height: 80vh;
+  }
+}
+@media (min-width: 1200px) {
+  #hero #hero-img {
+    height: 90vh;
+  }
+}
 @media (min-width: 768px) {
   #hero #hero-container {
     display: grid;
