@@ -1,9 +1,17 @@
 /* =============
     Buttons
 ============= */
-.blue-button{
+.blue-button:link, .blue-button:visited{
     background-color: var(--teal1);
     padding: 12px 16px;
     display: inline-block;
     margin-top: 8px;
+    color: black;
+    font-weight: 600;
+    font-size: rem-calc(14);
+    transition: 0.25s;
+
+    &:hover, &:active{
+        background-color: var(--teal2);
+    }
 }

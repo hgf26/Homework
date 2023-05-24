@@ -47,9 +47,16 @@
 
            li{
             background-color: var(--white);
-            box-shadow: 0px 1px 1px rgba (42, 48, 54, 0.3);
-             img{
-                width: 100%;
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
+            //  img{
+            //     width: 100%;
+            // }
+
+            .new-img{
+                background-position: center ;
+                background-size: cover;
+               height: 20vh;
+
             }
             section{
                 display: grid;
@@ -59,7 +66,7 @@
                 box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
                 padding: 24px 0;
                 
-                >div{
+                .info-grid-item{
                     grid-area: info-content;
                   
                } 
@@ -67,30 +74,35 @@
            } 
     
            #i1{
+            background-image: url("../img/info/More1.jpg");
             @include md{
                 grid-area: i1;
             }
            }
     
            #i2{
+            background-image: url("../img/info/More2.jpg");
             @include md{
                 grid-area: i2;
             }
            }
     
            #i3{
+            background-image: url("../img/info/More3.jpg");
             @include md{
                 grid-area: i3;
             }
            }
     
            #i4{
+            background-image: url("../img/info/BluePlates.jpg");
             @include md{
                 grid-area: i4;
             }
            }
     
            #i5{
+            background-image: url("../img/info/More5.jpg");
             @include md{
                 grid-area: i5;
             }
