@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, p {
 /* =============
     Buttons
 ============= */
-.blue-button:link, .blue-button:visited {
+.blue-link:link, .blue-link:visited {
   background-color: var(--teal1);
   padding: 12px 16px;
   display: inline-block;
@@ -408,7 +408,21 @@ h1, h2, h3, h4, h5, p {
   font-size: 0.875rem;
   transition: 0.25s;
 }
-.blue-button:link:hover, .blue-button:link:active, .blue-button:visited:hover, .blue-button:visited:active {
+.blue-link:link:hover, .blue-link:link:active, .blue-link:visited:hover, .blue-link:visited:active {
+  background-color: var(--teal2);
+}
+
+.blue-button {
+  background-color: var(--teal1);
+  padding: 12px 16px;
+  display: inline-block;
+  margin-top: 8px;
+  color: black;
+  font-weight: 600;
+  font-size: 0.875rem;
+  transition: 0.25s;
+}
+.blue-button:hover {
   background-color: var(--teal2);
 }
 
@@ -553,6 +567,17 @@ footer > div #f1 {
     grid-area: f1;
   }
 }
+footer > div #f1 h1 {
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--teal2);
+}
+footer > div #f1 h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
 footer > div #f1 .f1-content {
   display: flex;
   align-items: center;
@@ -560,14 +585,40 @@ footer > div #f1 .f1-content {
 }
 footer > div #f1 .f1-content i {
   margin-right: 8px;
+  font-size: 1.5625rem;
+  margin-right: 8px;
+}
+footer > div #f1 a:link, footer > div #f1 a:visited {
+  color: white;
+  transition: 0.25s;
+}
+footer > div #f1 a:link:hover, footer > div #f1 a:link:active, footer > div #f1 a:visited:hover, footer > div #f1 a:visited:active {
+  color: var(--teal2);
+}
+footer > div #f1 .divide-line {
+  height: 1px;
+  width: 90%;
+  background-color: var(--teal1);
+  margin: 32px 0;
+}
+footer > div #f2 {
+  margin-top: 48px;
 }
 @media (min-width: 768px) {
   footer > div #f2 {
     grid-area: f2;
   }
 }
+@media (min-width: 768px) {
+  footer > div #f2 {
+    margin-top: 0px;
+  }
+}
 footer > div #f2 h1 {
   margin-bottom: 16px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--teal2);
 }
 footer > div #f2 form {
   display: flex;
@@ -582,7 +633,8 @@ footer > div #f2 form input {
   border-radius: none;
 }
 footer > div #f2 form input div {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 footer > div #f2 form input div button {
   border: none;
@@ -591,6 +643,48 @@ footer > div #f2 form input div button {
 @media (min-width: 768px) {
   footer > div #f3 {
     grid-area: f3;
+    margin-top: -75px;
+  }
+}
+@media (min-width: 1024px) {
+  footer > div #f3 {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+@media (min-width: 1200px) {
+  footer > div #f3 {
+    text-align: right;
+  }
+}
+footer > div #f3 h1 {
+  margin-bottom: 16px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--teal2);
+}
+footer > div #f3 ul {
+  display: flex;
+}
+@media (min-width: 1024px) {
+  footer > div #f3 ul {
+    justify-content: flex-end;
+  }
+}
+footer > div #f3 ul li {
+  margin-right: 16px;
+}
+footer > div #f3 ul li a:link, footer > div #f3 ul li a:visited {
+  color: var(--teal2);
+  font-size: 1.5625rem;
+}
+footer > div #f3 ul li a:link:hover, footer > div #f3 ul li a:link:active, footer > div #f3 ul li a:visited:hover, footer > div #f3 ul li a:visited:active {
+  color: var(--teal3);
+}
+@media (min-width: 1200px) {
+  footer > div #f3 ul li {
+    margin-right: 0;
+    margin-left: 16px;
   }
 }
 
@@ -853,11 +947,13 @@ footer > div #f2 form input div button {
 }
 #info > div ul {
   display: grid;
+  gap: 16px;
 }
 @media (min-width: 768px) {
   #info > div ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 440px);
     grid-template-areas: "i1 i1 i2 i2 " "i3 i3 i4 i4" ".. i5 i5 ..";
     gap: 16px;
   }
@@ -865,30 +961,50 @@ footer > div #f2 form input div button {
 @media (min-width: 1024px) {
   #info > div ul {
     grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 440px);
     grid-template-areas: "i1 i1 i2 i2 i3 i3" ".. i4 i4 i5 i5 ..";
   }
 }
 #info > div ul li {
   background-color: var(--white);
-  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
 }
 #info > div ul li .new-img {
   background-position: center;
   background-size: cover;
-  height: 20vh;
+  height: 40vh;
+}
+@media (min-width: 768px) {
+  #info > div ul li .new-img {
+    height: 40%;
+  }
 }
 #info > div ul li section {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". info-content .";
-  background: white;
-  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
   padding: 24px 0;
+}
+@media (min-width: 768px) {
+  #info > div ul li section {
+    padding: 24px 0 0;
+  }
 }
 #info > div ul li section .info-grid-item {
   grid-area: info-content;
 }
+@media (min-width: 768px) {
+  #info > div ul li section .info-grid-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+#info > div ul li section .info-grid-item a {
+  margin-top: auto;
+}
 #info > div ul #i1 {
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+#info > div ul #i1 .new-img {
   background-image: url("../img/info/More1.jpg");
 }
 @media (min-width: 768px) {
@@ -897,6 +1013,9 @@ footer > div #f2 form input div button {
   }
 }
 #info > div ul #i2 {
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+#info > div ul #i2 .new-img {
   background-image: url("../img/info/More2.jpg");
 }
 @media (min-width: 768px) {
@@ -905,6 +1024,9 @@ footer > div #f2 form input div button {
   }
 }
 #info > div ul #i3 {
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+#info > div ul #i3 .new-img {
   background-image: url("../img/info/More3.jpg");
 }
 @media (min-width: 768px) {
@@ -913,6 +1035,9 @@ footer > div #f2 form input div button {
   }
 }
 #info > div ul #i4 {
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+#info > div ul #i4 .new-img {
   background-image: url("../img/info/BluePlates.jpg");
 }
 @media (min-width: 768px) {
@@ -921,6 +1046,9 @@ footer > div #f2 form input div button {
   }
 }
 #info > div ul #i5 {
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+}
+#info > div ul #i5 .new-img {
   background-image: url("../img/info/More5.jpg");
 }
 @media (min-width: 768px) {

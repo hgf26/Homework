@@ -25,11 +25,13 @@
         }
         ul{
             display: grid;
-            
+            gap: 16px;
 
             @include md{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
+
+                grid-template-rows: repeat(3,440px) ;
                 grid-template-areas: 
                 "i1 i1 i2 i2 " 
                 "i3 i3 i4 i4"
@@ -40,6 +42,7 @@
 
             @include lg{
                 grid-template-columns: repeat(6, 1fr);
+                grid-template-rows: repeat(2,440px) ;
                 grid-template-areas: 
                 "i1 i1 i2 i2 i3 i3" 
                 ".. i4 i4 i5 i5 ..";
@@ -47,62 +50,98 @@
 
            li{
             background-color: var(--white);
-            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
-            //  img{
-            //     width: 100%;
-            // }
+        
+        
+          
 
             .new-img{
                 background-position: center ;
                 background-size: cover;
-               height: 20vh;
+               height: 40vh;
+
+               @include md{
+                height: 40%;
+               }
 
             }
             section{
                 display: grid;
                 grid-template-columns: 16px auto 16px;
                 grid-template-areas: ". info-content .";
-                background: white;
-                box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
                 padding: 24px 0;
-                
+
+                @include md{
+                    padding: 24px 0 0;
+                }
+
                 .info-grid-item{
                     grid-area: info-content;
+
+                    @include md{
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    a{
+                        margin-top: auto;
+                    }
                   
                } 
             }
            } 
     
            #i1{
-            background-image: url("../img/info/More1.jpg");
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+            .new-img{
+                
+                background-image: url("../img/info/More1.jpg");
+  
+            }
             @include md{
                 grid-area: i1;
             }
            }
     
            #i2{
-            background-image: url("../img/info/More2.jpg");
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+            .new-img{
+                background-image: url("../img/info/More2.jpg");
+  
+            }
+        
             @include md{
                 grid-area: i2;
             }
            }
     
            #i3{
-            background-image: url("../img/info/More3.jpg");
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+            .new-img{
+                background-image: url("../img/info/More3.jpg");
+  
+            }
             @include md{
                 grid-area: i3;
             }
            }
     
            #i4{
-            background-image: url("../img/info/BluePlates.jpg");
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+            .new-img{
+                background-image: url("../img/info/BluePlates.jpg");
+  
+            }
             @include md{
                 grid-area: i4;
             }
            }
     
            #i5{
-            background-image: url("../img/info/More5.jpg");
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.296793);
+            .new-img{
+                background-image: url("../img/info/More5.jpg");
+  
+            }
             @include md{
                 grid-area: i5;
             }

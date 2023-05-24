@@ -46,6 +46,19 @@ footer{
 
         
             }
+            h1{
+                margin-bottom: 16px;
+                font-size: rem-calc(20);
+                font-weight: 600;
+                color: var(--teal2);
+
+            }
+
+            h2{
+                font-size: rem-calc(16);
+                font-weight: 600;
+                margin-bottom: 8px;
+            }
 
             .f1-content{
                 display: flex;
@@ -54,17 +67,45 @@ footer{
 
                 i{
                     margin-right: 8px;
+                   font-size: rem-calc(25); 
+                   margin-right: 8px;
                 }
             }
+
+            a:link, a:visited{
+                color: white;
+                transition: 0.25s;
+
+                &:hover, &:active{
+                    color: var(--teal2);
+
+
+                }
+            }
+            .divide-line{
+                height: 1px;
+                width: 90%;
+                background-color: var(--teal1);
+                margin: 32px 0;
+            }
+
         }
 
         #f2{
+            margin-top: 48px ;
             @include md{
                 grid-area: f2;
             }
 
+            @include md{
+                margin-top: 0px ;
+            }
+
             h1{
                 margin-bottom: 16px;
+                font-size: rem-calc(20);
+                font-weight: 600;
+                color: var(--teal2);
             }
 
             form{
@@ -79,7 +120,9 @@ footer{
                     border-radius: none;
 
                     div{
-                        text-align: right;
+                        // text-align: right;
+                        display: flex;
+                        justify-content: flex-end;
                         button{
                             border: none;
                             color: white;
@@ -94,7 +137,52 @@ footer{
         #f3{
             @include md{
                 grid-area: f3;
+                margin-top: -75px;
+                
             }
+
+            @include lg{
+                margin-top: 0;
+                text-align: right;
+            }
+
+            @include xl{
+                text-align: right;
+            }
+
+            h1{
+                margin-bottom: 16px;
+                font-size: rem-calc(20);
+                font-weight: 600;
+                color: var(--teal2);
+            }
+
+        ul{
+            display: flex;
+
+            @include lg{
+                justify-content: flex-end;
+            }
+
+            li{
+                margin-right: 16px;
+                a:link, a:visited{
+                    color: var(--teal2);
+                    font-size: rem-calc(25);
+
+                    &:hover, &:active{
+                        color: var(--teal3);
+                        
+
+                    }
+                }
+
+                @include xl{
+                    margin-right: 0;
+                    margin-left: 16px;
+                }
+            }
+        }
         }
         
     }
